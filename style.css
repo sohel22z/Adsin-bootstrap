@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100;1,200&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif ; margin: 0; padding: 0; box-sizing: border-box; border: none;
+}
+
+.navbar{
+    background: #131313; padding: 1rem 8rem; z-index: 1000;
+}
+
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: #fff;
+    font-size: 1rem; padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > a:active{
+    color: #00B585; border: 1px solid #00B585; border-radius: 30px;
+}
+
+#navbarSupportedContent > button {
+    background-color: #00B585;
+     font-weight: 600; padding: 0.4rem 1.4rem; border-radius: 15px 50px 30px;
+}
+
+#navbarSupportedContent > button:hover {
+    background: #fff;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+.mid{
+    width: 100%; height: 100vh; overflow: hidden;
+    display: flex; flex-direction: column; justify-content: center; align-content: center; text-align: center;
+}
+
+.mid video {
+    width: 100%; height: 100%; pointer-events: none; object-fit: cover;
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+
+.mid .hero{
+    position: relative;
+}
+
+body > header > div > div > h2 {
+    font-weight: 700;
+}
+
+.mid .hero p{
+    width: 45%;
+    font-size: 1.1rem; letter-spacing: 0.2rem; padding-bottom: 1rem;
+}
+
+.mid .hero a{
+    background: #00B585; font-weight: 700; padding: 0.6rem 1.4rem; border-radius: 30px;
+    text-decoration: none; 
+}
+
+.mid .hero a:hover{
+    background: #fff;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+.about .text{
+    display: flex; flex-direction: column; justify-content: flex-start; 
+    align-items: flex-start; margin: auto;
+}
+
+.about .text h6{
+    color: #00B585; font-weight: 800; font-size: 1rem; letter-spacing: 2px;
+}
+
+.about .text h2{
+    color: #111; font-weight: 800; font-size: 2.7rem;
+}
+
+.about .text p{
+    font-weight: 500; font-size: 1.1rem; letter-spacing: 0.5px;
+}
+
+.about .text a{
+    background: #00B585; font-weight: 500; padding: 0.6rem 1.4rem; border-radius: 30px;
+    text-decoration: none;
+}
+
+.about .text a:hover{
+    color: #fff;
+    background-color: #111;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+.discover .text{
+    display: flex; flex-direction: column; justify-content: flex-start; 
+    align-items: flex-start; margin: auto;
+}
+
+.discover .text h6{
+    color: #00B585; font-weight: 800; font-size: 1rem; letter-spacing: 2px;
+}
+
+.discover .text h2{
+    color: #111; font-weight: 700; font-size: 2.7rem;
+}
+
+.discover .text p{
+     font-weight: 400; font-size: 1.1rem; letter-spacing: 0.5px;
+}
+
+.discover .text a{
+    background: #00B585; font-weight: 500; padding: 0.6rem 1.4rem; border-radius: 30px;
+    text-decoration: none;
+}
+
+.discover .text a:hover{
+    color: #fff;
+    background-color: #111;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+#service > div.heading.text-center.pt-5 > h2{
+    font-weight: bold;
+}
+
+.service{
+    background-color: #111;
+}
+
+.service .one{ 
+    background: #fff; display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center; padding: 2rem 1.5rem; border-radius: 15px 50px 30px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+.signup .text{
+    display: flex; flex-direction: column; justify-content: flex-start; 
+    align-items: flex-start; margin: auto;
+}
+
+.signup .text h6{
+    color: #00B585; font-weight: 800; font-size: 1rem; letter-spacing: 2px;
+}
+
+.signup .text h2{
+    color: #111; font-weight: 800; font-size: 2.7rem;
+}
+
+.signup .text p{
+    font-weight: 500; font-size: 1.1rem; letter-spacing: 0.5px;
+}
+
+.signup .text a{
+    background: #00B585; font-weight: 500; padding: 0.6rem 1.4rem; border-radius: 30px;
+    text-decoration: none;
+}
+
+.signup .text a:hover{
+    color: #fff;
+    background-color: #111;
+}
+
+body > footer {
+    background: #111 !important;
+}
+
+body > footer > div.container.p-4 > h1{
+    border: 1px solid #00B585; border-radius: 15px 50px 30px;
+}
+
+body > footer > div.container.p-4 > section:nth-child(2) > form > div > div.subtn.col-auto > button{
+    background: #00B585; font-weight: 500; padding: 0.6rem 1.4rem; border-radius: 30px;
+    text-decoration: none;
+}
+
+body > footer > div.container.p-4 > section:nth-child(2) > form > div > div.subtn.col-auto > button:hover{
+    color: #fff;
+    background-color: #111;
+}
+
+
+@media screen and (max-width: 988px) {
+    .navbar{
+        padding: 1rem;
+    }
+
+    #navbarSupportedContent > ul {
+        padding-left: 0.8rem;
+    }
+
+    #navbarSupportedContent > ul > li:nth-child(n) > a{
+        padding: 0.8rem 0;
+    }
+
+    .mid .hero h2{
+         font-size: 2.5rem;
+    }
+    
+    .mid .hero p{
+         font-size: 1rem;
+    }
+    
+    .mid .hero a{
+      font-size: 0.9rem;
+    }
+}
